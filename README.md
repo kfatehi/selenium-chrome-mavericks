@@ -1,5 +1,7 @@
 # Selenium::Chrome::Mavericks
 
+UPDATE: This gem is no longer necessary as of Chromedriver 2.6. Please use the regular selenium-webdriver gem.
+
 I made this gem because selenium-webdriver, from capybara anyway, won't
 honor my passing of the argument "--verbose", which is the workaround to
 getting chromedriver working on Mavericks.
