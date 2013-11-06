@@ -1,5 +1,8 @@
 require "selenium/chrome/mavericks/version"
 require 'selenium-webdriver'
+
+puts "DEPRECATION NOTICE: As of chromedriver 2.6 the bug for which selenium-chrome-mavericks fixes has been resolved. Please remove this gem and go back to use selenium-webdriver gem instead. Thanks! --keyvan"
+
 module Selenium
   module WebDriver
     module Chrome
